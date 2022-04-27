@@ -240,7 +240,7 @@ const toAcept = async (name: string, price: string) => {
                 </div>
 
                 <div flex items-center justify-between my-40px overflow-x-scroll gap-20px text="[#000000]">
-                    <div @click="toAcept('Essencial ENEM 2022', '15.90')" ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
                         <div text-20px>Essencial ENEM 2022</div>
                         <div text-12px>Acesso por 12 meses</div>
 
@@ -254,7 +254,7 @@ const toAcept = async (name: string, price: string) => {
                         </div>
                         10% off no boleto/pix à vista:
                         <br> R$ 171,72<br>
-                        <button mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
+                        <button @click="toAcept('Essencial ENEM 2022', '15.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
                             mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
@@ -268,7 +268,7 @@ const toAcept = async (name: string, price: string) => {
                         </ul>
                     </div>
 
-                    <div @click="toAcept('Essencial Medicina', '29.90')" ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
                         <div text-20px>Essencial Medicina</div>
                         <div text-12px>Acesso por 12 meses</div>
 
@@ -282,7 +282,7 @@ const toAcept = async (name: string, price: string) => {
                         </div>
                         10% off no boleto/pix à vista:
                         <br> R$ 322,92<br>
-                        <button mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
+                        <button @click="toAcept('Essencial Medicina', '29.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
                             mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
@@ -296,7 +296,7 @@ const toAcept = async (name: string, price: string) => {
                         </ul>
                     </div>
 
-                    <div @click="toAcept('Combo Black Enem 2022', '32.90')" ml-15px min-w-300px min-h-750px rounded-lg bg="[#000000]" py-30px px-20px
+                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#000000]" py-30px px-20px
                         text="center [#ffffff]">
                         <div text-20px>Combo Black Enem 2022</div>
                         <div text-12px>Acesso por 12 meses</div>
@@ -311,7 +311,7 @@ const toAcept = async (name: string, price: string) => {
                         </div>
                         10% off no boleto/pix à vista:
                         <br> R$ 355,32<br>
-                        <button mt-10px mb-20px h-42px w-full bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded
+                        <button @click="toAcept('Combo Black Enem 2022', '32.90')" mt-10px mb-20px h-42px w-full bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded
                             mx-auto>Começar
                             agora</button>
                         <hr text="[#ffffff]">
@@ -323,7 +323,7 @@ const toAcept = async (name: string, price: string) => {
                         </ul>
                     </div>
 
-                    <div @click="toAcept('Combo MS! BOX 2022', '99.90')" ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                    <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
                         <div text-20px>Combo MS! BOX 2022</div>
                         <div text-12px>Acesso por 12 meses</div>
 
@@ -337,7 +337,7 @@ const toAcept = async (name: string, price: string) => {
                         </div>
                         10% off no boleto/pix à vista:
                         <br> R$ 1078,92<br>
-                        <button mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
+                        <button @click="toAcept('Combo MS! BOX 2022', '99.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
                             mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
@@ -353,7 +353,7 @@ const toAcept = async (name: string, price: string) => {
                         </ul>
                     </div>
 
-                    <div @click="toAcept('MS Foco MED 2022', '249.90')" ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                    <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
                         <div text-20px>MS Foco MED 2022</div>
                         <div text-12px>Acesso por 12 meses</div>
 
@@ -367,7 +367,7 @@ const toAcept = async (name: string, price: string) => {
                         </div>
                         10% off no boleto/pix à vista:
                         <br> R$ 2698,92<br>
-                        <button mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
+                        <button @click="toAcept('MS Foco MED 2022', '249.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
                             mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
@@ -568,7 +568,7 @@ const toAcept = async (name: string, price: string) => {
                         </ul>
                     </div>
 
-                    <div @click="toAcept('Essencial Medicina', '29.90')" ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
                         <div text-20px>Essencial Medicina</div>
                         <div text-12px>Acesso por 12 meses</div>
 
@@ -582,7 +582,7 @@ const toAcept = async (name: string, price: string) => {
                         </div>
                         10% off no boleto/pix à vista:
                         <br> R$ 322,92<br>
-                        <button mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
+                        <button @click="toAcept('Essencial Medicina', '29.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
                             mx-auto onclick="document.getElementById('price2').scrollIntoView();">Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
@@ -596,7 +596,7 @@ const toAcept = async (name: string, price: string) => {
                         </ul>
                     </div>
 
-                    <div @click="toAcept('Combo Black Enem 2022', '32.90')" ml-15px min-w-300px min-h-750px rounded-lg bg="[#000000]" py-30px px-20px
+                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#000000]" py-30px px-20px
                         text="center [#ffffff]">
                         <div text-20px>Combo Black Enem 2022</div>
                         <div text-12px>Acesso por 12 meses</div>
@@ -611,7 +611,7 @@ const toAcept = async (name: string, price: string) => {
                         </div>
                         10% off no boleto/pix à vista:
                         <br> R$ 355,32<br>
-                        <button mt-10px mb-20px h-42px w-full bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded
+                        <button @click="toAcept('Combo Black Enem 2022', '32.90')" mt-10px mb-20px h-42px w-full bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded
                             mx-auto onclick="document.getElementById('price2').scrollIntoView();">Começar
                             agora</button>
                         <hr text="[#ffffff]">
@@ -623,7 +623,7 @@ const toAcept = async (name: string, price: string) => {
                         </ul>
                     </div>
 
-                    <div @click="toAcept('Combo MS! BOX 202', '99.90')" ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
                         <div text-20px>Combo MS! BOX 2022</div>
                         <div text-12px>Acesso por 12 meses</div>
 
@@ -637,7 +637,7 @@ const toAcept = async (name: string, price: string) => {
                         </div>
                         10% off no boleto/pix à vista:
                         <br> R$ 1078,92<br>
-                        <button mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
+                        <button @click="toAcept('Combo MS! BOX 202', '99.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
                             mx-auto onclick="document.getElementById('price2').scrollIntoView();">Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
@@ -653,7 +653,7 @@ const toAcept = async (name: string, price: string) => {
                         </ul>
                     </div>
 
-                    <div @click="toAcept('MS Foco MED 2022', '249.90')" ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
                         <div text-20px>MS Foco MED 2022</div>
                         <div text-12px>Acesso por 12 meses</div>
 
@@ -667,7 +667,7 @@ const toAcept = async (name: string, price: string) => {
                         </div>
                         10% off no boleto/pix à vista:
                         <br> R$ 2698,92<br>
-                        <button mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
+                        <button @click="toAcept('MS Foco MED 2022', '249.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
                             mx-auto onclick="document.getElementById('price2').scrollIntoView();">Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
