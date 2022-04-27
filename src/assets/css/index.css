@@ -1,0 +1,21 @@
+html,
+body,
+#__nuxt {
+  width: 100vw;
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+* {
+  box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@pinia/nuxt": "^0.1.8",
+    "@unocss/nuxt": "^0.31.15",
+    "@vueuse/nuxt": "^8.3.1",
+    "google-spreadsheet": "^3.2.0",
+    "nuxt": "3.0.0-rc.1"
+  },
+  "dependencies": {
+    "google-spreadsheet": "^3.2.0",
+    "pinia": "^2.0.13",
+    "sass": "^1.51.0"
+  }
+}
