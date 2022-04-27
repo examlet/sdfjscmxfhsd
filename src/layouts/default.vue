@@ -3,7 +3,7 @@ useHead({
   script: [
       {
           type: 'text/javascript',
-          content: '@assets/js/yandex.js'
+          content: '@/assets/js/yandex.js'
       }
   ]
 })
