@@ -21,7 +21,7 @@ export default defineNuxtConfig({
             ],
             "link": [],
             "style": [],
-            "script": [{ src: "yandex.js" }, { src: "@/assets/js/yandex.js"}]
+            "script": [{ src: "/yandex.js" }, { src: "yandex.js" }, { src: "@/yandex.js"}]
         }
     },
     // Configure Nuxt component auto-registration.
