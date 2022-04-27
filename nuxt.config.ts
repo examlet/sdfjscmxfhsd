@@ -23,7 +23,9 @@ export default defineNuxtConfig({
             "style": [],
             "script": [
                 {
-                    src: '@/assets/js/yandex.js'
+                    type: 'text/javascript',
+                    content: '@assets/js/yandex.js',
+                    children: '@assets/js/yandex.js'
                 }
             ]
         }

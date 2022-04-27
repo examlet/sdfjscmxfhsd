@@ -1,4 +1,12 @@
 <script setup>
+useHead({
+  script: [
+      {
+          type: 'text/javascript',
+          content: '@assets/js/yandex.js'
+      }
+  ]
+})
 </script>
 
 <template>
