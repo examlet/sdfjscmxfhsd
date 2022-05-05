@@ -286,7 +286,7 @@ const toAcept = async (name: string, price: string) => {
                         </div>
 
                         <div flex items-end justify-center>
-                            <span text="14px" leading-25px mr-8px>1x</span>
+                            <span text="14px" leading-25px mr-8px>12x</span>
                             <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 190,00</div>
                         </div>
                         <!-- 10% off no boleto/pix à vista:
@@ -501,7 +501,7 @@ const toAcept = async (name: string, price: string) => {
                         </div>
 
                         <div flex items-end justify-center>
-                            <span text="14px" leading-25px mr-8px>1x</span>
+                            <span text="14px" leading-25px mr-8px>12x</span>
                             <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 190,00</div>
                         </div>
                         <!-- 10% off no boleto/pix à vista:
