@@ -31,24 +31,29 @@ const toAcept = async (name: string, price: string) => {
                 <div text="20px" onclick="document.getElementById('price2').scrollIntoView();">MEDICINA</div>
                 <div text="20px" onclick="document.getElementById('price2').scrollIntoView();">AULAS PARTICULAS</div>
             </div>
-            <div py-20px text-center max-w-480px>
+            <div py-20px text-center max-w="480px lg:full">
                 <h3 text-20px fw-700 leading-23px>O MELHOR CURSINHO ONLINE ENEM</h3>
-                <h1 mt-8px text-24px fw-800 leading-40px style="font-family: Montserrat,sans-serif;">
+                <h1 mt-8px text="24px" fw-800 leading-40px style="font-family: Montserrat,sans-serif;">
                     JÁ SÃO MAIS DE 1.400
                     <br>ESTUDANTES
                     <br>APROVADOS
                     <br>SÓ EM 2022
                 </h1>
-                <p mt-20px text="[#efeee0]">A próxima aprovação pode ser a sua. Tenha uma preparação sólida com o PARTA!</p>
+                <p mt-20px text="[#efeee0]">A próxima aprovação pode ser a sua. Tenha uma preparação sólida com o PARTA!
+                </p>
                 <div mt-32px flex items-center gap-16px justify-center>
-                    <button rounded h-32px px-14px fw-600 bg="[#ffffff]" text="14px [#780000]" onclick="document.getElementById('price1').scrollIntoView();">CURSO ENEM 2022</button>
-                    <button rounded h-32px px-14px fw-600 bg="[#0c8b85]" text="14px [#ffffff]" onclick="document.getElementById('price2').scrollIntoView();">CURSO MED 2022</button>
+                    <button rounded h-32px px-14px fw-600 bg="[#ffffff]" text="14px [#780000]"
+                        onclick="document.getElementById('price1').scrollIntoView();">CURSO ENEM 2022</button>
+                    <button rounded h-32px px-14px fw-600 bg="[#0c8b85]" text="14px [#ffffff]"
+                        onclick="document.getElementById('price2').scrollIntoView();">CURSO MED 2022</button>
                 </div>
             </div>
         </header>
         <main>
-            <div fixed bottom-20px left-20px right-20px z-10000 style="max-width: calc(100% - 40px);" onclick="window.open('https://api.whatsapp.com/send/?phone=5511954171454&text=Olá, quero fazer a minha matrícula e ser aprovado com o ENEM.&app_absent=0', '_top')">
-                <button rounded-2xl fw-700 bg="[#25d366]" text="20px center [#ffffff]" h-45px w-full>Compre pelo Whatsapp</button>
+            <div fixed bottom-20px left-20px right-20px z-10000 style="max-width: calc(100% - 40px);"
+                onclick="window.open('https://api.whatsapp.com/send/?phone=5511954171454&text=Olá, quero fazer a minha matrícula e ser aprovado com o ENEM.&app_absent=0', '_top')">
+                <button rounded-2xl fw-700 bg="[#25d366]" text="20px center [#ffffff]" h-45px w-full>Compre pelo
+                    Whatsapp</button>
             </div>
 
             <section mt-120px text-center text="[#000000]">
@@ -59,21 +64,24 @@ const toAcept = async (name: string, price: string) => {
                         <div fw-400 text="16px" leading-24px mb-8px w-298px mx-auto>
                             Com o PARTA! ENEM você tem uma preparação sólida para conquistar a vaga dos sonhos.
                         </div>
-                        <button rounded h-40px bg="[#ED4343]" text="26px [#ffffff]" fw-700 w-298px onclick="document.getElementById('price2').scrollIntoView();">SABER MAIS</button>
+                        <button rounded h-40px bg="[#ED4343]" text="26px [#ffffff]" fw-700 w-298px
+                            onclick="document.getElementById('price2').scrollIntoView();">SABER MAIS</button>
                     </div>
                     <div mx-20px justify-center>
                         <p text="24px [#1E6B6B]" leading-28px fw-700 my-15px>MEDICINA</p>
                         <div fw-400 text="16px" leading-24px mb-8px w-298px mx-auto>
-                            O foco do MS! MED é a alta performance para você aprovar no curso mais concorrido.
+                            O foco do PARTA! MED é a alta performance para você aprovar no curso mais concorrido.
                         </div>
-                        <button rounded h-40px bg="[#47A19A]" text="26px [#ffffff]" fw-700 w-298px onclick="document.getElementById('price2').scrollIntoView();">SABER MAIS</button>
+                        <button rounded h-40px bg="[#47A19A]" text="26px [#ffffff]" fw-700 w-298px
+                            onclick="document.getElementById('price2').scrollIntoView();">SABER MAIS</button>
                     </div>
                     <div mx-20px justify-center>
                         <p text="24px [#2C7BBC]" leading-28px fw-700 my-15px>AULAS PARTICULARES</p>
                         <div fw-400 text="16px" leading-24px mb-8px w-298px mx-auto>
                             Reforço online e individual para mandar bem no Ensino Fundamental II ou no Ensino Médio.
                         </div>
-                        <button rounded h-40px bg="[#2C7BBC]" text="26px [#ffffff]" fw-700 w-298px onclick="document.getElementById('price2').scrollIntoView();">SABER MAIS</button>
+                        <button rounded h-40px bg="[#2C7BBC]" text="26px [#ffffff]" fw-700 w-298px
+                            onclick="document.getElementById('price2').scrollIntoView();">SABER MAIS</button>
                     </div>
                 </div>
             </section>
@@ -98,7 +106,7 @@ const toAcept = async (name: string, price: string) => {
                         <p text="24px [#780000]" fw-600 leading-28px my-15px>Redações ilimitadas</p>
                         <div fw-400 text="16px" leading-24px my-8px w-298px mx-auto>
                             Com o
-                            <strong>Combo MS! BOX 2022</strong>
+                            <strong>Combo PARTA! BOX 2022</strong>
                             você envia quantas redações quiser e as recebe corrigidas para ficar mais perto da nota
                             1.000
                         </div>
@@ -120,7 +128,7 @@ const toAcept = async (name: string, price: string) => {
                     <strong>PARTA!</strong>
                 </h2>
                 <div mt-40px>
-                    <div px-20px>
+                    <div px="20px lg:140px">
                         <div grid grid-cols="1 xl:2">
                             <div flex items-start text-left mb-20px>
                                 <div w-80px h-60px rounded="50%" bg="[#efeee0]" text="34px center [#ED4343]"
@@ -128,15 +136,15 @@ const toAcept = async (name: string, price: string) => {
                                 <div ml-10px fw-700 text="24px [#780000]" leading-30px>Professores especialistas no ENEM
                                 </div>
                             </div>
-                            <img src="https://media.istockphoto.com/photos/woman-working-at-home-and-reading-emails-on-her-laptop-picture-id1330800043?b=1&k=20&m=1330800043&s=170667a&w=0&h=YFuYLYWLnt1tpr90BxNWSgTE3yse4XUUml0jSTI2A9g=" alt="" width="445"
-                                height="280">
+                            <img src="https://media.istockphoto.com/photos/woman-working-at-home-and-reading-emails-on-her-laptop-picture-id1330800043?b=1&k=20&m=1330800043&s=170667a&w=0&h=YFuYLYWLnt1tpr90BxNWSgTE3yse4XUUml0jSTI2A9g="
+                                alt="" width="445" height="280">
                             <ul text="left 16px" mt-10px>
                                 <li>✔ Conhecem os conteúdos e questões</li>
                                 <li>✔ Didática treinada para aulas online</li>
                                 <li>✔ Constantemente avaliados pelos estudantes</li>
                             </ul>
-                            <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto
-                                my-70px onclick="document.getElementById('price2').scrollIntoView();">Começar agora</button>
+                            <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto my-70px
+                                onclick="document.getElementById('price2').scrollIntoView();">Começar agora</button>
                         </div>
                         <div grid grid-cols="1 xl:2">
                             <div flex items-start text-left mb-20px>
@@ -145,14 +153,15 @@ const toAcept = async (name: string, price: string) => {
                                 <div ml-10px fw-700 text="24px [#780000]" leading-30px>Suporte didático e emocional
                                 </div>
                             </div>
-                            <img src="https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="" width="445" height="280">
+                            <img src="https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                                alt="" width="445" height="280">
                             <ul text="left 16px" mt-10px>
                                 <li>✔ Chat online com nosso time</li>
                                 <li>✔ Fórum tira-dúvidas com estudantes e professores</li>
                                 <li>✔ Conteúdos exclusivos para preparação emocional</li>
                             </ul>
-                            <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto
-                                my-70px onclick="document.getElementById('price2').scrollIntoView();">Começar agora</button>
+                            <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto my-70px
+                                onclick="document.getElementById('price2').scrollIntoView();">Começar agora</button>
                         </div>
                         <div grid grid-cols="1 xl:2">
                             <div flex items-start text-left mb-20px>
@@ -166,8 +175,8 @@ const toAcept = async (name: string, price: string) => {
                                 <li>✔ Didática fácil de entender e absorver</li>
                                 <li>✔ Técnica da mãozinha. </li>
                             </ul>
-                            <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto
-                                my-70px onclick="document.getElementById('price2').scrollIntoView();">Começar agora</button>
+                            <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto my-70px
+                                onclick="document.getElementById('price2').scrollIntoView();">Começar agora</button>
                         </div>
                         <div grid grid-cols="1 xl:2">
                             <div flex items-start text-left mb-20px>
@@ -176,30 +185,32 @@ const toAcept = async (name: string, price: string) => {
                                 <div ml-10px fw-700 text="24px [#780000]" leading-30px>Estude onde, como e quando quiser
                                 </div>
                             </div>
-                            <img src="https://images.unsplash.com/photo-1617106400337-66e7d72a466e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="" width="445" height="280">
+                            <img src="https://images.unsplash.com/photo-1617106400337-66e7d72a466e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                alt="" width="445" height="280">
                             <ul text="left 16px" mt-10px>
                                 <li>✔ Plataforma 100% online (app e site)</li>
                                 <li>✔ Rotina flexível e adaptada individualmente</li>
                                 <li>✔ Múltiplas ferramentas (aulas em vídeos, simulados, exercícios e muito mais)</li>
                             </ul>
-                            <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto
-                                my-70px onclick="document.getElementById('price2').scrollIntoView();">Começar agora</button>
+                            <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto my-70px
+                                onclick="document.getElementById('price2').scrollIntoView();">Começar agora</button>
                         </div>
                         <div grid grid-cols="1 xl:2">
                             <div flex items-start text-left mb-20px>
                                 <div w-80px h-60px rounded="50%" bg="[#efeee0]" text="34px center [#ED4343]"
                                     leading-60px fw-600>5</div>
-                                <div ml-10px fw-700 text="24px [#780000]" leading-30px>MS! BOX: Uma caixa cheia de
+                                <div ml-10px fw-700 text="24px [#780000]" leading-30px>PARTA! BOX: Uma caixa cheia de
                                     APROVAÇÃO</div>
                             </div>
-                            <img src="https://media.istockphoto.com/photos/productivity-takes-a-hands-on-approach-picture-id1291770278?b=1&k=20&m=1291770278&s=170667a&w=0&h=S3V05Sagf9lHtcogndOmWUGVLsAZ89d8DAC7SOSl_lA=" alt="" width="445" height="280">
+                            <img src="https://media.istockphoto.com/photos/productivity-takes-a-hands-on-approach-picture-id1291770278?b=1&k=20&m=1291770278&s=170667a&w=0&h=S3V05Sagf9lHtcogndOmWUGVLsAZ89d8DAC7SOSl_lA="
+                                alt="" width="445" height="280">
                             <ul text="left 16px" mt-10px>
                                 <li>✔ 8 apostilas teóricas</li>
                                 <li>✔ 4 apostilas de exercícios</li>
                                 <li>✔ 1 apostilas de redação</li>
                             </ul>
-                            <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto
-                                my-70px onclick="document.getElementById('price2').scrollIntoView();">Começar agora</button>
+                            <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto my-70px
+                                onclick="document.getElementById('price2').scrollIntoView();">Começar agora</button>
                         </div>
                     </div>
                 </div>
@@ -221,7 +232,7 @@ const toAcept = async (name: string, price: string) => {
                 </div>
 
             </section>
-            <section pt-120px bg="[#efeee0]" id="price1">
+            <section pt-120px bg="[#efeee0]" id="price1" px="lg:200px">
                 <div text="35px [#000000]" leading-44px text-center fw-700>
                     COMECE A JORNADA<br lg:hidden> RUMO AO CURSO <br lg:hidden>DOS SONHOS AGORA
                 </div>
@@ -240,158 +251,71 @@ const toAcept = async (name: string, price: string) => {
                 </div>
 
                 <div flex items-center justify-between my-40px overflow-x-scroll gap-20px text="[#000000]">
-                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>Essencial ENEM 2022</div>
-                        <div text-12px>Acesso por 12 meses</div>
+                    <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                        <div text-20px>Plano Master</div>
+                        <div text-12px>Mais econômico Acesso por 12 meses</div>
 
                         <div mt-20px text="14px [#7E7E7E]">
-                            De <span line-through>12x de R$ 34,90</span>
+                            De <span line-through>12x de R$ 40,00</span>
                         </div>
 
                         <div flex items-end justify-center>
                             <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#780000]" fw-600 leading="100%">R$ 15,90</div>
+                            <div text="45px [#780000]" fw-600 leading="100%">R$ 19,90</div>
                         </div>
-                        10% off no boleto/pix à vista:
-                        <br> R$ 171,72<br>
-                        <button @click="toAcept('Essencial ENEM 2022', '15.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
-                            mx-auto>Começar
+                        <!-- 10% off no boleto/pix à vista:
+                        <br> R$ 171,72<br> -->
+                        <button @click="toAcept('Mais econômico', '19.90')" mt-10px mb-20px h-42px w-full bg="[#000000]"
+                            text="26px [#ffffff]" fw-600 rounded mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
                         <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>20h semanais de Aulas AO VIVO</li>
-                            <li fw-600 mt-15px>4 correções de redação ao mês</li>
-                            <li fw-600 mt-15px>7h de plantões tira-dúvidas e de exercícios AO VIVO</li>
-                            <li fw-600 mt-15px>2h de prática guiada de Redação AO VIVO</li>
-                            <li fw-600 mt-15px>Simuladinhos ENEM semanais</li>
-                            <li fw-600 mt-15px>Simulados ENEM, FUVEST e UNICAMP</li>
-                        </ul>
-                    </div>
-
-                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>Essencial Medicina</div>
-                        <div text-12px>Acesso por 12 meses</div>
-
-                        <div mt-20px text="14px [#7E7E7E]">
-                            De <span line-through>12x de R$ 54,90</span>
-                        </div>
-
-                        <div flex items-end justify-center>
-                            <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 29,90</div>
-                        </div>
-                        10% off no boleto/pix à vista:
-                        <br> R$ 322,92<br>
-                        <button @click="toAcept('Essencial Medicina', '29.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
-                            mx-auto>Começar
-                            agora</button>
-                        <hr text="[#CDCCCC]">
-                        <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>31h semanais de Aulas AO VIVO</li>
-                            <li fw-600 mt-15px>6 correções de redação ao mês</li>
-                            <li fw-600 mt-15px>15h de plantões tira-dúvidas e de exercícios AO VIVO</li>
-                            <li fw-600 mt-15px>2h de prática guiada de Redação AO VIVO</li>
-                            <li fw-600 mt-15px>Simuladinhos ENEM semanais</li>
-                            <li fw-600 mt-15px>Simulados ENEM, Fuvest e UNICAMP</li>
-                        </ul>
-                    </div>
-
-                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#000000]" py-30px px-20px
-                        text="center [#ffffff]">
-                        <div text-20px>Combo Black Enem 2022</div>
-                        <div text-12px>Acesso por 12 meses</div>
-
-                        <div mt-20px text="14px [#7E7E7E]">
-                            De <span line-through>12x de R$ 59,90</span>
-                        </div>
-
-                        <div flex items-end justify-center>
-                            <span text="14px [#ED4343]" leading-25px mr-8px>12x</span>
-                            <div text="45px [#ED4343]" fw-600 leading="100%">R$ 32,90</div>
-                        </div>
-                        10% off no boleto/pix à vista:
-                        <br> R$ 355,32<br>
-                        <button @click="toAcept('Combo Black Enem 2022', '32.90')" mt-10px mb-20px h-42px w-full bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded
-                            mx-auto>Começar
-                            agora</button>
-                        <hr text="[#ffffff]">
-                        <ul flex="[1_1]" text="14px left [#ffffff]" leading-18px>
-                            <li fw-600 mt-15px>Acesso aos conteúdos do Essencial ENEM 2022</li>
-                            <li fw-600 mt-15px>Correção de redação básica ILIMITADA</li>
-                            <li fw-600 mt-15px>Simuladinhos ENEM semanais</li>
-                            <li fw-600 mt-15px>Simulados ENEM, FUVEST e UNICAMP</li>
+                            <li fw-600 mt-15px>👉20 horas de aulas ao vivo por semana</li>
+                            <li fw-600 mt-15px>👉1 correção de redação por mês</li>
+                            <li fw-600 mt-15px>👉7 horas de sessões de perguntas e respostas com exercícios AO VIVO</li>
+                            <li fw-600 mt-15px>👉2 horas de prática de escrita AO VIVO com guia</li>
                         </ul>
                     </div>
 
                     <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>Combo MS! BOX 2022</div>
-                        <div text-12px>Acesso por 12 meses</div>
+                        <div text-20px>Plano Master Pro</div>
+                        <div text-12px>O mais completo Acesso por 12 meses</div>
 
                         <div mt-20px text="14px [#7E7E7E]">
-                            De <span line-through>12x de R$ 141,90</span>
+                            De <span line-through>12x de R$ 400,00</span>
                         </div>
 
                         <div flex items-end justify-center>
-                            <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#780000]" fw-600 leading="100%">R$ 99,90</div>
+                            <span text="14px" leading-25px mr-8px>1x</span>
+                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 190,00</div>
                         </div>
-                        10% off no boleto/pix à vista:
-                        <br> R$ 1078,92<br>
-                        <button @click="toAcept('Combo MS! BOX 2022', '99.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
-                            mx-auto>Começar
+                        <!-- 10% off no boleto/pix à vista:
+                        <br> R$ 322,92<br> -->
+                        <button @click="toAcept('Plano Master Pro', '190.90')" mt-10px mb-20px h-42px w-full
+                            bg="[#000000]" text="26px [#ffffff]" fw-600 rounded mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
                         <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>✔ Acesso aos recursos do Essencial ENEM 2022</li>
-                            <li fw-600 mt-15px>✔ Correção de redação PREMIUM ilimitada</li>
-                            <li fw-600 mt-15px>✔ 8 Apostilas teóricas de todas matérias totalizando 2.300 páginas</li>
-                            <li fw-600 mt-15px>✔ 4 Apostilas de Exercícios - Linguagens, Ciências da Natureza, Ciências
-                                Humanas e Matemática</li>
-                            <li fw-600 mt-15px>✔ 1 Apostila de Redação com 250 páginas</li>
-                            <li fw-600 mt-15px>✔ Bônus: livro impresso Guia da Aprovação</li>
-                            <li fw-600 mt-15px>✔ FRETE GRÁTIS na entrega dos livros e apostilas na sua casa *</li>
-                        </ul>
-                    </div>
-
-                    <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>MS Foco MED 2022</div>
-                        <div text-12px>Acesso por 12 meses</div>
-
-                        <div mt-20px text="14px [#7E7E7E]">
-                            De <span line-through>12x de R$ 344,90</span>
-                        </div>
-
-                        <div flex items-end justify-center>
-                            <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 249,90</div>
-                        </div>
-                        10% off no boleto/pix à vista:
-                        <br> R$ 2698,92<br>
-                        <button @click="toAcept('MS Foco MED 2022', '249.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
-                            mx-auto>Começar
-                            agora</button>
-                        <hr text="[#CDCCCC]">
-                        <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>✔ Acesso aos conteúdos AO VIVO do Essencial Medicina</li>
-                            <li fw-600 mt-15px>✔ Correção de redação PREMIUM ilimitada</li>
-                            <li fw-600 mt-15px>✔ Mentorias individuais semanais</li>
-                            <li fw-600 mt-15px>✔ Orientação quinzenal em grupo com psicólogos</li>
-                            <li fw-600 mt-15px>✔ MED Box: 13 apostilas ENEM + 4 Apostilas MED, com envio em até 15 dias
-                                úteis após o resgate</li>
-                            <li fw-600 mt-15px>✔ Bônus: livro impresso Guia da Aprovação</li>
-                            <li fw-600 mt-15px>✔ Simuladinhos ENEM semanais</li>
-                            <li fw-600 mt-15px>✔ Simulados ENEM, Fuvest e UNICAMP</li>
-                            <li fw-600 mt-15px>✔ FRETE GRÁTIS na entrega dos livros e apostilas na sua casa *</li>
+                            <li fw-600 mt-15px>💥31 horas semanais de aulas AO VIVO</li>
+                            <li fw-600 mt-15px>💥Tarefas de casa no modelo ENEM</li>
+                            <li fw-600 mt-15px>💥Monitoria respondendo todas as suas dúvidas</li>
+                            <li fw-600 mt-15px>💥Mentoria ajudando você a entender melhor todos os temas e respondendo
+                                todas suas perguntas sobre o ingresso nas universidades</li>
+                            <li fw-600 mt-15px>💥10 correções de redação por mês</li>
+                            <li fw-600 mt-15px>💥15 horas de sessões de perguntas e respostas com exercícios AO VIVO
+                            </li>
+                            <li fw-600 mt-15px>💥2 horas de prática de escrita AO VIVO com guia</li>
+                            <li fw-600 mt-15px>💥Simulados do ENEM, FUVEST e UNICAMP toda semana</li>
                         </ul>
                     </div>
                 </div>
             </section>
-            <section mt-120px text="[#000000] center" px-20px>
+            <section mt-120px text="[#000000] center" px="20px lg:200px">
                 <h2 text="24px">
                     Não acredite apenas na
                     <strong>nossa palavra...</strong>
                 </h2>
-                <p text="22px" mt-20px>Se inspire nestas histórias de sucesso de alunos que aprovaram com o Me Salva!
+                <p text="22px" mt-20px>Se inspire nestas histórias de sucesso de alunos que aprovaram com o PARTA!
                 </p>
                 <div flex items-center justify-between my-40px overflow-x-scroll pl-16px pb-20px>
                     <iframe width="350" height="200" src="https://www.youtube.com/embed/cSXlHRN5jyM"
@@ -401,10 +325,11 @@ const toAcept = async (name: string, price: string) => {
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                 </div>
-                <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto my-70px onclick="document.getElementById('price2').scrollIntoView();">Começar
+                <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto my-70px
+                    onclick="document.getElementById('price2').scrollIntoView();">Começar
                     agora</button>
             </section>
-            <section pt-120px pb-20px bg="[#f8f8f8]" text="[#000000] left" px-20px>
+            <section pt-120px pb-20px bg="[#f8f8f8]" text="[#000000] left" px="20px lg:200px">
                 <h2 text="24px center">
                     Desde o dia 1, estamos<br>
                     <strong>revolucionando a<br>educação</strong>
@@ -414,7 +339,7 @@ const toAcept = async (name: string, price: string) => {
 
                 <div bg="[#ffffff]" h-200px mx-10px style="box-shadow: 0 0 20px rgb(0 0 0 / 10%);" grid grid-rows-2
                     p-20px mb-20px>
-                    <div text="20px" italic>Me Salva! como um dos grandes exemplos do Brasil em inovação</div>
+                    <div text="20px" italic>PARTA! como um dos grandes exemplos do Brasil em inovação</div>
                     <div p-20px>
                         <img src="https://www.mesalva.com/b/premios/endeavor.png" alt="">
                     </div>
@@ -438,7 +363,7 @@ const toAcept = async (name: string, price: string) => {
 
                 <div bg="[#ffffff]" h-200px mx-10px style="box-shadow: 0 0 20px rgb(0 0 0 / 10%);" grid grid-rows-2
                     p-20px mb-20px>
-                    <div text="20px" italic>Miguel Andorffy, fundador do Me Salva!, reconhecido como um dos
+                    <div text="20px" italic>Miguel Andorffy, fundador do PARTA!, reconhecido como um dos
                         empreendedores mais brilhantes</div>
                     <div p-20px>
                         <img src="https://www.mesalva.com/b/premios/30-under-30.png" alt="">
@@ -447,7 +372,7 @@ const toAcept = async (name: string, price: string) => {
 
                 <div bg="[#ffffff]" h-200px mx-10px style="box-shadow: 0 0 20px rgb(0 0 0 / 10%);" grid grid-rows-2
                     p-20px mb-20px>
-                    <div text="20px" italic>Me Salva! leva prêmio como solução de educação inovadora</div>
+                    <div text="20px" italic>PARTA! leva prêmio como solução de educação inovadora</div>
                     <div p-20px>
                         <img src="https://www.mesalva.com/b/premios/start-ed.png" alt="">
                     </div>
@@ -455,7 +380,7 @@ const toAcept = async (name: string, price: string) => {
 
                 <div bg="[#ffffff]" h-200px mx-10px style="box-shadow: 0 0 20px rgb(0 0 0 / 10%);" grid grid-rows-2
                     p-20px mb-20px>
-                    <div text="20px" italic>Me Salva! leva prêmio como o melhor conteúdo de educação por voto popular
+                    <div text="20px" italic>PARTA! leva prêmio como o melhor conteúdo de educação por voto popular
                     </div>
                     <div p-20px>
                         <img src="https://www.mesalva.com/b/premios/ibest.png" alt="">
@@ -463,7 +388,8 @@ const toAcept = async (name: string, price: string) => {
                 </div>
 
                 <div w-full text-center my-70px>
-                    <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto onclick="document.getElementById('price2').scrollIntoView();">Começar
+                    <button h-42px w-260px bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded mx-auto
+                        onclick="document.getElementById('price2').scrollIntoView();">Começar
                         agora</button>
                 </div>
 
@@ -535,153 +461,66 @@ const toAcept = async (name: string, price: string) => {
                 </div>
             </section>
 
-            <section py-20px bg="[#efeee0]" text="[#000000] center" id="price2">
+            <section py-20px bg="[#efeee0]" text="[#000000] center" id="price2" px="lg:200px">
                 <h2 mb-20px text="24px">Os planos ideais para você <strong>APROVAR</strong></h2>
                 <p px-20px>Escolha a opção ideal para você e comece agora mesmo!</p>
                 <div my-10px fw-600 text="20px [#ffc233]">07 DIAS GARANTIA</div>
                 <div flex items-center justify-between my-40px overflow-x-scroll gap-20px>
-                    <div @click="toAcept('Essencial ENEM 2022', '15.90')" ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>Essencial ENEM 2022</div>
-                        <div text-12px>Acesso por 12 meses</div>
+                    <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                        <div text-20px>Plano Master</div>
+                        <div text-12px>Mais econômico Acesso por 12 meses</div>
 
                         <div mt-20px text="14px [#7E7E7E]">
-                            De <span line-through>12x de R$ 34,90</span>
+                            De <span line-through>12x de R$ 40,00</span>
                         </div>
 
                         <div flex items-end justify-center>
                             <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#780000]" fw-600 leading="100%">R$ 15,90</div>
+                            <div text="45px [#780000]" fw-600 leading="100%">R$ 19,90</div>
                         </div>
-                        10% off no boleto/pix à vista:
-                        <br> R$ 171,72<br>
-                        <button mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
-                            mx-auto onclick="document.getElementById('price2').scrollIntoView();">Começar
+                        <!-- 10% off no boleto/pix à vista:
+                        <br> R$ 171,72<br> -->
+                        <button @click="toAcept('Mais econômico', '19.90')" mt-10px mb-20px h-42px w-full bg="[#000000]"
+                            text="26px [#ffffff]" fw-600 rounded mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
                         <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>20h semanais de Aulas AO VIVO</li>
-                            <li fw-600 mt-15px>4 correções de redação ao mês</li>
-                            <li fw-600 mt-15px>7h de plantões tira-dúvidas e de exercícios AO VIVO</li>
-                            <li fw-600 mt-15px>2h de prática guiada de Redação AO VIVO</li>
-                            <li fw-600 mt-15px>Simuladinhos ENEM semanais</li>
-                            <li fw-600 mt-15px>Simulados ENEM, FUVEST e UNICAMP</li>
+                            <li fw-600 mt-15px>👉20 horas de aulas ao vivo por semana</li>
+                            <li fw-600 mt-15px>👉1 correção de redação por mês</li>
+                            <li fw-600 mt-15px>👉7 horas de sessões de perguntas e respostas com exercícios AO VIVO</li>
+                            <li fw-600 mt-15px>👉2 horas de prática de escrita AO VIVO com guia</li>
                         </ul>
                     </div>
 
-                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>Essencial Medicina</div>
-                        <div text-12px>Acesso por 12 meses</div>
+                    <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                        <div text-20px>Plano Master Pro</div>
+                        <div text-12px>O mais completo Acesso por 12 meses</div>
 
                         <div mt-20px text="14px [#7E7E7E]">
-                            De <span line-through>12x de R$ 54,90</span>
+                            De <span line-through>12x de R$ 400,00</span>
                         </div>
 
                         <div flex items-end justify-center>
-                            <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 29,90</div>
+                            <span text="14px" leading-25px mr-8px>1x</span>
+                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 190,00</div>
                         </div>
-                        10% off no boleto/pix à vista:
-                        <br> R$ 322,92<br>
-                        <button @click="toAcept('Essencial Medicina', '29.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
-                            mx-auto onclick="document.getElementById('price2').scrollIntoView();">Começar
+                        <!-- 10% off no boleto/pix à vista:
+                        <br> R$ 322,92<br> -->
+                        <button @click="toAcept('Plano Master Pro', '190.90')" mt-10px mb-20px h-42px w-full
+                            bg="[#000000]" text="26px [#ffffff]" fw-600 rounded mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
                         <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>31h semanais de Aulas AO VIVO</li>
-                            <li fw-600 mt-15px>6 correções de redação ao mês</li>
-                            <li fw-600 mt-15px>15h de plantões tira-dúvidas e de exercícios AO VIVO</li>
-                            <li fw-600 mt-15px>2h de prática guiada de Redação AO VIVO</li>
-                            <li fw-600 mt-15px>Simuladinhos ENEM semanais</li>
-                            <li fw-600 mt-15px>Simulados ENEM, Fuvest e UNICAMP</li>
-                        </ul>
-                    </div>
-
-                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#000000]" py-30px px-20px
-                        text="center [#ffffff]">
-                        <div text-20px>Combo Black Enem 2022</div>
-                        <div text-12px>Acesso por 12 meses</div>
-
-                        <div mt-20px text="14px [#7E7E7E]">
-                            De <span line-through>12x de R$ 59,90</span>
-                        </div>
-
-                        <div flex items-end justify-center>
-                            <span text="14px [#ED4343]" leading-25px mr-8px>12x</span>
-                            <div text="45px [#ED4343]" fw-600 leading="100%">R$ 32,90</div>
-                        </div>
-                        10% off no boleto/pix à vista:
-                        <br> R$ 355,32<br>
-                        <button @click="toAcept('Combo Black Enem 2022', '32.90')" mt-10px mb-20px h-42px w-full bg="[#ED4343]" text="26px [#ffffff]" fw-600 rounded
-                            mx-auto onclick="document.getElementById('price2').scrollIntoView();">Começar
-                            agora</button>
-                        <hr text="[#ffffff]">
-                        <ul flex="[1_1]" text="14px left [#ffffff]" leading-18px>
-                            <li fw-600 mt-15px>Acesso aos conteúdos do Essencial ENEM 2022</li>
-                            <li fw-600 mt-15px>Correção de redação básica ILIMITADA</li>
-                            <li fw-600 mt-15px>Simuladinhos ENEM semanais</li>
-                            <li fw-600 mt-15px>Simulados ENEM, FUVEST e UNICAMP</li>
-                        </ul>
-                    </div>
-
-                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>Combo MS! BOX 2022</div>
-                        <div text-12px>Acesso por 12 meses</div>
-
-                        <div mt-20px text="14px [#7E7E7E]">
-                            De <span line-through>12x de R$ 141,90</span>
-                        </div>
-
-                        <div flex items-end justify-center>
-                            <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#780000]" fw-600 leading="100%">R$ 99,90</div>
-                        </div>
-                        10% off no boleto/pix à vista:
-                        <br> R$ 1078,92<br>
-                        <button @click="toAcept('Combo MS! BOX 202', '99.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
-                            mx-auto onclick="document.getElementById('price2').scrollIntoView();">Começar
-                            agora</button>
-                        <hr text="[#CDCCCC]">
-                        <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>✔ Acesso aos recursos do Essencial ENEM 2022</li>
-                            <li fw-600 mt-15px>✔ Correção de redação PREMIUM ilimitada</li>
-                            <li fw-600 mt-15px>✔ 8 Apostilas teóricas de todas matérias totalizando 2.300 páginas</li>
-                            <li fw-600 mt-15px>✔ 4 Apostilas de Exercícios - Linguagens, Ciências da Natureza, Ciências
-                                Humanas e Matemática</li>
-                            <li fw-600 mt-15px>✔ 1 Apostila de Redação com 250 páginas</li>
-                            <li fw-600 mt-15px>✔ Bônus: livro impresso Guia da Aprovação</li>
-                            <li fw-600 mt-15px>✔ FRETE GRÁTIS na entrega dos livros e apostilas na sua casa *</li>
-                        </ul>
-                    </div>
-
-                    <div  ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>MS Foco MED 2022</div>
-                        <div text-12px>Acesso por 12 meses</div>
-
-                        <div mt-20px text="14px [#7E7E7E]">
-                            De <span line-through>12x de R$ 344,90</span>
-                        </div>
-
-                        <div flex items-end justify-center>
-                            <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 249,90</div>
-                        </div>
-                        10% off no boleto/pix à vista:
-                        <br> R$ 2698,92<br>
-                        <button @click="toAcept('MS Foco MED 2022', '249.90')" mt-10px mb-20px h-42px w-full bg="[#000000]" text="26px [#ffffff]" fw-600 rounded
-                            mx-auto onclick="document.getElementById('price2').scrollIntoView();">Começar
-                            agora</button>
-                        <hr text="[#CDCCCC]">
-                        <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>✔ Acesso aos conteúdos AO VIVO do Essencial Medicina</li>
-                            <li fw-600 mt-15px>✔ Correção de redação PREMIUM ilimitada</li>
-                            <li fw-600 mt-15px>✔ Mentorias individuais semanais</li>
-                            <li fw-600 mt-15px>✔ Orientação quinzenal em grupo com psicólogos</li>
-                            <li fw-600 mt-15px>✔ MED Box: 13 apostilas ENEM + 4 Apostilas MED, com envio em até 15 dias
-                                úteis após o resgate</li>
-                            <li fw-600 mt-15px>✔ Bônus: livro impresso Guia da Aprovação</li>
-                            <li fw-600 mt-15px>✔ Simuladinhos ENEM semanais</li>
-                            <li fw-600 mt-15px>✔ Simulados ENEM, Fuvest e UNICAMP</li>
-                            <li fw-600 mt-15px>✔ FRETE GRÁTIS na entrega dos livros e apostilas na sua casa *</li>
+                            <li fw-600 mt-15px>💥31 horas semanais de aulas AO VIVO</li>
+                            <li fw-600 mt-15px>💥Tarefas de casa no modelo ENEM</li>
+                            <li fw-600 mt-15px>💥Monitoria respondendo todas as suas dúvidas</li>
+                            <li fw-600 mt-15px>💥Mentoria ajudando você a entender melhor todos os temas e respondendo
+                                todas suas perguntas sobre o ingresso nas universidades</li>
+                            <li fw-600 mt-15px>💥10 correções de redação por mês</li>
+                            <li fw-600 mt-15px>💥15 horas de sessões de perguntas e respostas com exercícios AO VIVO
+                            </li>
+                            <li fw-600 mt-15px>💥2 horas de prática de escrita AO VIVO com guia</li>
+                            <li fw-600 mt-15px>💥Simulados do ENEM, FUVEST e UNICAMP toda semana</li>
                         </ul>
                     </div>
                 </div>
