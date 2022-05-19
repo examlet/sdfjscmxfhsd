@@ -8,7 +8,7 @@ if (!store.productPrice) {
 
 const toWA = (text: string) => {
     let tt = `Oi, eu quero saber sobre o "${store.productName}" no valor de ${store.productPrice} pagamento por ${text}`
-    window.open(`https://api.whatsapp.com/send/?phone=5511954171454&text=${tt}&app_absent=0`, '_top')
+    window.open(`https://api.whatsapp.com/send/?phone=5511945729085&text=${tt}&app_absent=0`, '_top')
 }
 const price12 = (parseFloat(store.productPrice) * 12 * 0.9).toFixed(2)
 

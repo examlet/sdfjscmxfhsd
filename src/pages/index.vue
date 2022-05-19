@@ -48,7 +48,7 @@ const toAcept = async (name: string, price: string) => {
         </header>
         <main>
             <div fixed bottom-20px left-20px right-20px z-10000 style="max-width: calc(100% - 40px);"
-                onclick="window.open('https://api.whatsapp.com/send/?phone=5511954171454&text=Olá, quero fazer a minha matrícula e ser aprovado com o ENEM.&app_absent=0', '_top')">
+                onclick="window.open('https://api.whatsapp.com/send/?phone=5511945729085&text=Olá, quero fazer a minha matrícula e ser aprovado com o ENEM.&app_absent=0', '_top')">
                 <button rounded-2xl fw-700 bg="[#25d366]" text="20px center [#ffffff]" h-45px w-full>Compre pelo
                     Whatsapp</button>
             </div>
