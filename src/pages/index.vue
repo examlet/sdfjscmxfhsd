@@ -8,9 +8,6 @@ const toAcept = async (name: string, price: string) => {
     store.setStore(name, price);
     router.push('/acept')
 }
-
-
-
 </script>
 
 <template>
@@ -252,7 +249,7 @@ const toAcept = async (name: string, price: string) => {
 
                 <div flex items-center justify-between my-40px overflow-x-scroll gap-20px text="[#000000]">
                     <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>Plano Master</div>
+                        <div text-20px>Plano Básico</div>
                         <div text-12px>Mais econômico Acesso por 12 meses</div>
 
                         <div mt-20px text="14px [#7E7E7E]">
@@ -261,24 +258,25 @@ const toAcept = async (name: string, price: string) => {
 
                         <div flex items-end justify-center>
                             <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#780000]" fw-600 leading="100%">R$ 19,90</div>
+                            <div text="45px [#780000]" fw-600 leading="100%">R$ 29,90</div>
                         </div>
                         <!-- 10% off no boleto/pix à vista:
                         <br> R$ 171,72<br> -->
-                        <button @click="toAcept('Mais econômico', '19.90')" mt-10px mb-20px h-42px w-full bg="[#000000]"
+                        <button @click="toAcept('Plano Básico', '29.90')" mt-10px mb-20px h-42px w-full bg="[#000000]"
                             text="26px [#ffffff]" fw-600 rounded mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
                         <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>👉20 horas de aulas ao vivo por semana</li>
-                            <li fw-600 mt-15px>👉1 correção de redação por mês</li>
-                            <li fw-600 mt-15px>👉7 horas de sessões de perguntas e respostas com exercícios AO VIVO</li>
-                            <li fw-600 mt-15px>👉2 horas de prática de escrita AO VIVO com guia</li>
+                            <li fw-600 mt-15px>👉10 (dez) horas semanais de aulas ao vivo</li>
+                            <li fw-600 mt-15px>👉1 (uma) correção de redação por mês</li>
+                            <li fw-600 mt-15px>👉1 (uma) hora de prática de escrita ao vivo com guia
+orientação para organização e planejamento</li>
+                            <li fw-600 mt-15px>👉simulados do ENEM, FUVEST e UNICAMP</li>
                         </ul>
                     </div>
 
                     <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>Plano Master Pro</div>
+                        <div text-20px>PARTA Med</div>
                         <div text-12px>O mais completo Acesso por 12 meses</div>
 
                         <div mt-20px text="14px [#7E7E7E]">
@@ -287,25 +285,55 @@ const toAcept = async (name: string, price: string) => {
 
                         <div flex items-end justify-center>
                             <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 190,00</div>
+                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 99,90</div>
                         </div>
                         <!-- 10% off no boleto/pix à vista:
                         <br> R$ 322,92<br> -->
-                        <button @click="toAcept('Plano Master Pro', '190.90')" mt-10px mb-20px h-42px w-full
+                        <button @click="toAcept('PARTA Med', '99.90')" mt-10px mb-20px h-42px w-full
                             bg="[#000000]" text="26px [#ffffff]" fw-600 rounded mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
                         <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>💥31 horas semanais de aulas AO VIVO</li>
-                            <li fw-600 mt-15px>💥Tarefas de casa no modelo ENEM</li>
-                            <li fw-600 mt-15px>💥Monitoria respondendo todas as suas dúvidas</li>
+                            <li fw-600 mt-15px>💥20 (vinte) horas semanais de aulas ao vivo</li>
+                            <li fw-600 mt-15px>💥5 (cinco) correções de redação por mês</li>
+                            <li fw-600 mt-15px>💥7 (sete)  horas de sessões de perguntas e respontas ao vivo com exercícios</li>
                             <li fw-600 mt-15px>💥Mentoria ajudando você a entender melhor todos os temas e respondendo
                                 todas suas perguntas sobre o ingresso nas universidades</li>
-                            <li fw-600 mt-15px>💥10 correções de redação por mês</li>
-                            <li fw-600 mt-15px>💥15 horas de sessões de perguntas e respostas com exercícios AO VIVO
+                            <li fw-600 mt-15px>💥2 (duas) horas de prática de escrita ao vivo com guia
+orientação para organização e planejamento</li>
+                            <li fw-600 mt-15px>💥simulados do ENEM, FUVEST e UNICAMP
                             </li>
-                            <li fw-600 mt-15px>💥2 horas de prática de escrita AO VIVO com guia</li>
-                            <li fw-600 mt-15px>💥Simulados do ENEM, FUVEST e UNICAMP toda semana</li>
+                        </ul>
+                    </div>
+
+                    <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                        <div text-20px>PARTA Top</div>
+                        <div text-12px>O mais completo Acesso por 12 meses</div>
+
+                        <div mt-20px text="14px [#7E7E7E]">
+                            De <span line-through>12x de R$ 540,00</span>
+                        </div>
+
+                        <div flex items-end justify-center>
+                            <span text="14px" leading-25px mr-8px>12x</span>
+                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 199,90</div>
+                        </div>
+                        <!-- 10% off no boleto/pix à vista:
+                        <br> R$ 322,92<br> -->
+                        <button @click="toAcept('PARTA Top', '199.90')" mt-10px mb-20px h-42px w-full
+                            bg="[#000000]" text="26px [#ffffff]" fw-600 rounded mx-auto>Começar
+                            agora</button>
+                        <hr text="[#CDCCCC]">
+                        <ul flex="[1_1]" text="14px left" leading-18px>
+                            <li fw-600 mt-15px>🔥20 (vinte) horas semanais de aulas ao vivo</li>
+                            <li fw-600 mt-15px>🔥Lição de casa no estilo ENEM</li>
+                            <li fw-600 mt-15px>🔥Orientador respondendo em todas questões práticas</li>
+                            <li fw-600 mt-15px>🔥Mentor ajudando a entender todos os temas e respondendo todas as perguntas relacionado ao ingresso na universidade</li>
+                            <li fw-600 mt-15px>🔥10 (dez) correções de redação por mês</li>
+                            <li fw-600 mt-15px>🔥15 (quinze) horas de sessões de perguntas e respontas ao vivo com exercícios </li>
+                            <li fw-600 mt-15px>🔥4 (quatro) horas de prática de escrita ao vivo com guia
+orientação para organização e planejamento</li>
+                            <li fw-600 mt-15px>🔥simulados do ENEM, FUVEST e UNICAMP </li>
                         </ul>
                     </div>
                 </div>
@@ -467,7 +495,7 @@ const toAcept = async (name: string, price: string) => {
                 <div my-10px fw-600 text="20px [#ffc233]">07 DIAS GARANTIA</div>
                 <div flex items-center justify-between my-40px overflow-x-scroll gap-20px>
                     <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>Plano Master</div>
+                        <div text-20px>Plano Básico</div>
                         <div text-12px>Mais econômico Acesso por 12 meses</div>
 
                         <div mt-20px text="14px [#7E7E7E]">
@@ -476,24 +504,25 @@ const toAcept = async (name: string, price: string) => {
 
                         <div flex items-end justify-center>
                             <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#780000]" fw-600 leading="100%">R$ 19,90</div>
+                            <div text="45px [#780000]" fw-600 leading="100%">R$ 29,90</div>
                         </div>
                         <!-- 10% off no boleto/pix à vista:
                         <br> R$ 171,72<br> -->
-                        <button @click="toAcept('Mais econômico', '19.90')" mt-10px mb-20px h-42px w-full bg="[#000000]"
+                        <button @click="toAcept('Plano Básico', '29.90')" mt-10px mb-20px h-42px w-full bg="[#000000]"
                             text="26px [#ffffff]" fw-600 rounded mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
                         <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>👉20 horas de aulas ao vivo por semana</li>
-                            <li fw-600 mt-15px>👉1 correção de redação por mês</li>
-                            <li fw-600 mt-15px>👉7 horas de sessões de perguntas e respostas com exercícios AO VIVO</li>
-                            <li fw-600 mt-15px>👉2 horas de prática de escrita AO VIVO com guia</li>
+                            <li fw-600 mt-15px>👉10 (dez) horas semanais de aulas ao vivo</li>
+                            <li fw-600 mt-15px>👉1 (uma) correção de redação por mês</li>
+                            <li fw-600 mt-15px>👉1 (uma) hora de prática de escrita ao vivo com guia
+orientação para organização e planejamento</li>
+                            <li fw-600 mt-15px>👉simulados do ENEM, FUVEST e UNICAMP</li>
                         </ul>
                     </div>
 
                     <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
-                        <div text-20px>Plano Master Pro</div>
+                        <div text-20px>PARTA Med</div>
                         <div text-12px>O mais completo Acesso por 12 meses</div>
 
                         <div mt-20px text="14px [#7E7E7E]">
@@ -502,25 +531,55 @@ const toAcept = async (name: string, price: string) => {
 
                         <div flex items-end justify-center>
                             <span text="14px" leading-25px mr-8px>12x</span>
-                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 190,00</div>
+                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 99,90</div>
                         </div>
                         <!-- 10% off no boleto/pix à vista:
                         <br> R$ 322,92<br> -->
-                        <button @click="toAcept('Plano Master Pro', '190.90')" mt-10px mb-20px h-42px w-full
+                        <button @click="toAcept('PARTA Med', '99.90')" mt-10px mb-20px h-42px w-full
                             bg="[#000000]" text="26px [#ffffff]" fw-600 rounded mx-auto>Começar
                             agora</button>
                         <hr text="[#CDCCCC]">
                         <ul flex="[1_1]" text="14px left" leading-18px>
-                            <li fw-600 mt-15px>💥31 horas semanais de aulas AO VIVO</li>
-                            <li fw-600 mt-15px>💥Tarefas de casa no modelo ENEM</li>
-                            <li fw-600 mt-15px>💥Monitoria respondendo todas as suas dúvidas</li>
+                            <li fw-600 mt-15px>💥20 (vinte) horas semanais de aulas ao vivo</li>
+                            <li fw-600 mt-15px>💥5 (cinco) correções de redação por mês</li>
+                            <li fw-600 mt-15px>💥7 (sete)  horas de sessões de perguntas e respontas ao vivo com exercícios</li>
                             <li fw-600 mt-15px>💥Mentoria ajudando você a entender melhor todos os temas e respondendo
                                 todas suas perguntas sobre o ingresso nas universidades</li>
-                            <li fw-600 mt-15px>💥10 correções de redação por mês</li>
-                            <li fw-600 mt-15px>💥15 horas de sessões de perguntas e respostas com exercícios AO VIVO
+                            <li fw-600 mt-15px>💥2 (duas) horas de prática de escrita ao vivo com guia
+orientação para organização e planejamento</li>
+                            <li fw-600 mt-15px>💥simulados do ENEM, FUVEST e UNICAMP
                             </li>
-                            <li fw-600 mt-15px>💥2 horas de prática de escrita AO VIVO com guia</li>
-                            <li fw-600 mt-15px>💥Simulados do ENEM, FUVEST e UNICAMP toda semana</li>
+                        </ul>
+                    </div>
+
+                    <div ml-15px min-w-300px min-h-750px rounded-lg bg="[#ffffff]" py-30px px-20px text-center>
+                        <div text-20px>PARTA Top</div>
+                        <div text-12px>O mais completo Acesso por 12 meses</div>
+
+                        <div mt-20px text="14px [#7E7E7E]">
+                            De <span line-through>12x de R$ 540,00</span>
+                        </div>
+
+                        <div flex items-end justify-center>
+                            <span text="14px" leading-25px mr-8px>12x</span>
+                            <div text="45px [#4CA19A]" fw-600 leading="100%">R$ 199,90</div>
+                        </div>
+                        <!-- 10% off no boleto/pix à vista:
+                        <br> R$ 322,92<br> -->
+                        <button @click="toAcept('PARTA Top', '199.90')" mt-10px mb-20px h-42px w-full
+                            bg="[#000000]" text="26px [#ffffff]" fw-600 rounded mx-auto>Começar
+                            agora</button>
+                        <hr text="[#CDCCCC]">
+                        <ul flex="[1_1]" text="14px left" leading-18px>
+                            <li fw-600 mt-15px>🔥20 (vinte) horas semanais de aulas ao vivo</li>
+                            <li fw-600 mt-15px>🔥Lição de casa no estilo ENEM</li>
+                            <li fw-600 mt-15px>🔥Orientador respondendo em todas questões práticas</li>
+                            <li fw-600 mt-15px>🔥Mentor ajudando a entender todos os temas e respondendo todas as perguntas relacionado ao ingresso na universidade</li>
+                            <li fw-600 mt-15px>🔥10 (dez) correções de redação por mês</li>
+                            <li fw-600 mt-15px>🔥15 (quinze) horas de sessões de perguntas e respontas ao vivo com exercícios </li>
+                            <li fw-600 mt-15px>🔥4 (quatro) horas de prática de escrita ao vivo com guia
+orientação para organização e planejamento</li>
+                            <li fw-600 mt-15px>🔥simulados do ENEM, FUVEST e UNICAMP </li>
                         </ul>
                     </div>
                 </div>
