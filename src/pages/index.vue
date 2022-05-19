@@ -579,7 +579,7 @@ orientação para organização e planejamento</li>
                             <li fw-600 mt-15px>🔥15 (quinze) horas de sessões de perguntas e respontas ao vivo com exercícios </li>
                             <li fw-600 mt-15px>🔥4 (quatro) horas de prática de escrita ao vivo com guia
 orientação para organização e planejamento</li>
-                            <li fw-600 mt-15px>🔥simulados do ENEM, FUVEST e UNICAMP </li>
+                            <li fw-600 mt-15px>🔥simulados do ENEM, FUVEST e UNICAMP</li>
                         </ul>
                     </div>
                 </div>
